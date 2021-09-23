@@ -10,6 +10,12 @@
 		NotEquals
 	}
 	
+	public enum LogicOps
+	{
+		AND,
+		OR
+	}
+	
 	public class Utils
 	{
 		public static bool Compare(CompareOps op, int left, int right)
