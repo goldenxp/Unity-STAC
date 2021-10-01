@@ -4,7 +4,7 @@
 	using UnityEngine.Events;
 	
 	[AddComponentMenu("STAC/Actions/Instantiate Action")]
-	[HelpURL("https://github.com/goldenxp/Unity-STAC/wiki/InstantiateAction")]
+	[HelpURL(Utils.HelpURL + "InstantiateAction")]
 	public class InstantiateAction : SimpleActionBase
 	{
 		[Tooltip("GameObject that will be cloned.")]

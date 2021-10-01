@@ -18,6 +18,8 @@
 	
 	public class Utils
 	{
+		public const string HelpURL = "https://github.com/goldenxp/Unity-STAC/wiki/";
+		
 		public static bool Compare(CompareOps op, int left, int right)
 		{
 			switch (op)

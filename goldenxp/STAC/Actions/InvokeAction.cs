@@ -4,7 +4,7 @@
 	using UnityEngine.Events;
 	
 	[AddComponentMenu("STAC/Actions/Invoke Unity Event Action")]
-	[HelpURL("https://github.com/goldenxp/Unity-STAC/wiki/InvokeAction")]
+	[HelpURL(Utils.HelpURL + "InvokeAction")]
 	public class InvokeAction : SimpleActionBase
 	{
 		public UnityEvent events;

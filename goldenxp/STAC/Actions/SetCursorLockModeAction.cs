@@ -5,7 +5,7 @@
 	using System;
 	
 	[AddComponentMenu("STAC/Actions/Set Cursor Lock Mode Action")]
-	[HelpURL("https://github.com/goldenxp/Unity-STAC/wiki/SetCursorLockModeAction")]
+	[HelpURL(Utils.HelpURL + "SetCursorLockModeAction")]
 	public class SetCursorLockModeAction : SimpleActionBase
 	{
 		public CursorLockMode mode;

@@ -4,7 +4,7 @@
 	using UnityEngine.Events;
 	
 	[AddComponentMenu("STAC/Actions/Play Audio Action")]
-	[HelpURL("https://github.com/goldenxp/Unity-STAC/wiki/PlayAudioAction")]
+	[HelpURL(Utils.HelpURL + "PlayAudioAction")]
 	public class PlayAudioAction : SimpleActionBase
 	{
 		[Tooltip("Audio Source that will be played.")]
