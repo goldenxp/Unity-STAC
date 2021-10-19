@@ -4,6 +4,7 @@
 	using UnityEngine.Events;
 	
 	[AddComponentMenu("STAC/Actions/Multi Action")]
+	[HelpURL(Utils.HelpURL + "MultiAction")]
 	public class MultiAction : SimpleActionBase
 	{
 		public SimpleActionBase[] actions;
