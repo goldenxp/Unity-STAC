@@ -13,20 +13,29 @@
 		
 		protected void OnTriggerEnter(Collider other)
 		{
+			if (actionEnter == null)
+				return;
+			
 			if (CheckColliderCondition(other))
 				actionEnter.Run();
 		}
 		
 		protected void OnTriggerExit(Collider other)
 		{
+			if (actionExit == null)
+				return;
+			
 			if (CheckColliderCondition(other))
-				actionEnter.Run();
+				actionExit.Run();
 		}
 		
 		protected void OnTriggerStay(Collider other)
 		{
+			if (actionStay == null)
+				return;
+			
 			if (CheckColliderCondition(other))
-				actionEnter.Run();
+				actionStay.Run();
 		}
 		
 		protected bool CheckColliderCondition(Collider collider)
