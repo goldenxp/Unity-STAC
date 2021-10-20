@@ -3,7 +3,8 @@
 	using UnityEngine;
 	using UnityEngine.Events;
 	
-	[AddComponentMenu("STAC/Actions/Conditional Action")]
+	[AddComponentMenu("STAC/Actions/Runners/Conditional Action")]
+	[HelpURL(Utils.HelpURL + "ConditionalAction")]
 	public class ConditionalAction : SimpleActionBase
 	{
 		public SimpleConditionBase condition;
@@ -14,11 +15,11 @@
 		{
 			if (condition.Check())
 			{
-				passAction.Run();
+				passAction?.Run();
 			}
 			else
 			{
-				failAction.Run();
+				failAction?.Run();
 			}
 		}
 	}

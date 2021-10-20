@@ -1,9 +1,9 @@
 ﻿namespace goldenxp
 {
 	using UnityEngine;
-	using UnityEngine.Events;
 	
-	[AddComponentMenu("STAC/Actions/Index Action")]
+	[AddComponentMenu("STAC/Actions/Runners/Index Action")]
+	[HelpURL(Utils.HelpURL + "IndexAction")]
 	public class IndexAction : MultiAction
 	{
 		public int index;
